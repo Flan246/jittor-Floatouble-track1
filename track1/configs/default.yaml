@@ -1,0 +1,27 @@
+# 赛道一默认配置（切分策略暂不固定，训练前再定）
+
+paths:
+  raw_data: track1/data          # Junction → data_A
+  processed: track1/processed
+  outputs: track1/outputs
+  checkpoints: track1/checkpoints
+
+datasets:
+  - dataset1
+  - dataset2
+
+preprocess:
+  drop_duplicate_edges: true
+  drop_self_loops: false         # 是否去自环，待赛题/实验决定
+  sort_by_time: true
+  remap_ids: true                # 连续 ID 编码（test 候选表单独映射策略在脚本内）
+
+# 验证集切分：strategy 为 null 时不执行切分，仅写出全量 processed train
+split:
+  strategy: null
+  # 可选值（实现见 preprocess.py）：
+  #   null            - 不切分，只产出 processed/train_edges.csv
+  #   row_ratio       - 按行号比例（与 craft_baseline 一致）
+  #   time_ratio      - 按时间排序后取尾部比例
+  #   official_split  - 仅 dataset2：使用 CSV 的 split 列
+  val_ratio: 0.15

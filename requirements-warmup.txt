@@ -1,0 +1,10 @@
+# 热身赛 Cora GCN 最小依赖（勿升级 jittor 到 1.3.10+，Windows 易编译失败）
+jittor==1.3.7.16
+numpy==1.26.4
+pyparsing==3.2.1
+scipy
+networkx
+scikit-learn
+tqdm
+einops
+sympy

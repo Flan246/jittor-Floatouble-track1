@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Jittor / 数据与产物
+data/
+warmup/data/
+track1/data/
+track1/processed/
+track1/checkpoints/
+track1/outputs/*.csv
+*.pkl
+result.json
+result.zip
+
+# IDE
+.vscode/
+!.vscode/settings.json

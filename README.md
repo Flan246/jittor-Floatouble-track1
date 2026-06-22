@@ -59,7 +59,7 @@ $env:JITTOR_HOME = "D:\jittor_cache"
 | `warmup/` | 热身赛 GCN |
 | `track1/` | 赛道一工程 |
 | `craft_baseline/` | 赛方基线（只读参考） |
-| `docs/` | 环境与竞赛备忘 |
+| `docs/环境搭建.md` | Jittor 环境安装说明 |
 
 ## 致谢
 

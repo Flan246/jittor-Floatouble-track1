@@ -16,6 +16,12 @@ track1/outputs/*.csv
 result.json
 result.zip
 
-# IDE
+# IDE / 本地开发（勿提交公开仓库）
 .vscode/
 !.vscode/settings.json
+.cursor/
+CLAUDE.md
+项目进度记录.txt
+docs/竞赛备忘.md
+docs/验证进度.md
+docs/数据核查报告.md

@@ -4,8 +4,9 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Jittor / 数据与产物
+# Jittor / 数据与产物（赛方 CSV 勿上传公开仓库）
 data/
+data_A/
 warmup/data/
 track1/data/
 track1/processed/

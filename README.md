@@ -1,6 +1,6 @@
-# jittor-Floutoble-track1
+# jittor-floatouble-track1
 
-第六届计图（Jittor-7）人工智能挑战赛 · **Floutoble** 战队开源仓库  
+第六届计图（Jittor-7）人工智能挑战赛 · **floatouble** 战队开源仓库  
 维护者：Float246
 
 - 热身赛：Cora 引文网络 GCN 节点分类（`warmup/`）
